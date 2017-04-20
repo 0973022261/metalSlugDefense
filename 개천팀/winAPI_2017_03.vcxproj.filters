@@ -52,6 +52,9 @@
     <Filter Include="MainGame\database">
       <UniqueIdentifier>{3b24506e-52c2-4a2d-bd5d-c0b9e8012ca9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\zombieManager">
+      <UniqueIdentifier>{1cf1545a-e62e-4cae-93d4-f8b23bc2bdd3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -129,6 +132,12 @@
     <ClInclude Include="keyAniManager.h">
       <Filter>2DGameFramework\Manager</Filter>
     </ClInclude>
+    <ClInclude Include="zombieManager.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -190,6 +199,12 @@
     </ClCompile>
     <ClCompile Include="keyAniManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombieManager.cpp">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie.cpp">
+      <Filter>MainGame\zombieManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
