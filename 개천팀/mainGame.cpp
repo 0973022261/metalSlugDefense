@@ -18,8 +18,9 @@ mainGame::~mainGame()
 HRESULT mainGame::init(void)
 {
 	gameNode::init(true);
-	
-	int a;
+
+	_zm = new zombieManager;
+	_zm->init();
 
 	return S_OK;
 }
@@ -28,7 +29,7 @@ HRESULT mainGame::init(void)
 void mainGame::release(void)
 {
 	gameNode::release();
-
+	_zm->release();
 }
 
 //연산 하는 곳
@@ -36,9 +37,14 @@ void mainGame::update(void)
 {
 	gameNode::update();
 	
+	_zm->update();
 
 	TIMEMANAGER->getElapsedTime();
-		
+	
+	if (RND->getFromIntTo(0, 1000) == 0)
+	{
+		_zm->makeZombie(WINSIZEX, RND->getFromIntTo(0, WINSIZEY), RND->getFromIntTo(0, 10));
+	}
 }
 
 //그려주는 곳
@@ -48,8 +54,8 @@ void mainGame::render()
 	PatBlt(getMemDC(), 0, 0, WINSIZEX, WINSIZEY, WHITENESS);
 
 	TIMEMANAGER->render(getMemDC());
-	   
 
+	_zm->render();
 
 	//백버퍼에 옮겨 그려줄 애 건들지마라 얘는
 	this->getBackBuffer()->render(getHDC(), 0, 0);
