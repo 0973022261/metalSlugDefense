@@ -5,6 +5,9 @@
 
 class Marco : public Player
 {
+private:
+
+
 public:
 
 	HRESULT init();
@@ -17,3 +20,21 @@ public:
 	~Marco();
 };
 
+class eri : public Player
+{
+private:
+
+public:
+
+	HRESULT init();
+	void release();
+	void render();
+	void update();
+
+
+	eri();
+	~eri();
+
+
+
+};

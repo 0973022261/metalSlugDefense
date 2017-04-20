@@ -29,3 +29,29 @@ void Marco::update()
 
 }
 
+eri::eri(){}
+eri::~eri(){}
+
+HRESULT eri::init()
+{
+	
+	return S_OK;
+}
+
+void eri::release()
+{
+
+
+}
+
+void eri::render()
+{
+
+
+}
+
+void eri::update()
+{
+
+
+}
