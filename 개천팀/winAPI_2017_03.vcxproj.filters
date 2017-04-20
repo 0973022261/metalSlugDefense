@@ -55,6 +55,9 @@
     <Filter Include="MainGame\zombieManager">
       <UniqueIdentifier>{1cf1545a-e62e-4cae-93d4-f8b23bc2bdd3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\PlayerManager">
+      <UniqueIdentifier>{7910a101-4be9-47e3-8559-38eec09b6fd7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -138,6 +141,18 @@
     <ClInclude Include="zombie.h">
       <Filter>MainGame\zombieManager</Filter>
     </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -205,6 +220,18 @@
     </ClCompile>
     <ClCompile Include="zombie.cpp">
       <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>MainGame\PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>MainGame\PlayerManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
