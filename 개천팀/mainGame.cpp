@@ -18,6 +18,8 @@ mainGame::~mainGame()
 HRESULT mainGame::init(void)
 {
 	gameNode::init(true);
+	
+	int a;
 
 	return S_OK;
 }
@@ -46,8 +48,8 @@ void mainGame::render()
 	PatBlt(getMemDC(), 0, 0, WINSIZEX, WINSIZEY, WHITENESS);
 
 	TIMEMANAGER->render(getMemDC());
+	   
 
-	TextOut(getMemDC(),WINSIZEX/2,WINSIZEY/2,"나는 개천에서 용났다 팀이야",strlen("나는 개천에서 용났다 팀이야"));
 
 	//백버퍼에 옮겨 그려줄 애 건들지마라 얘는
 	this->getBackBuffer()->render(getHDC(), 0, 0);
