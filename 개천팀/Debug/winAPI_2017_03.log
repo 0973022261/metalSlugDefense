@@ -1,7 +1,9 @@
-﻿  PlayerManager.cpp
-  Player.cpp
-  Character.cpp
-  Card.cpp
+﻿  mainGame.cpp
+c:\users\j\desktop\metal\개천팀\maingame.cpp(57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\j\desktop\metal\개천팀\maingame.cpp(85): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
-  winAPI_2017_03.vcxproj -> C:\Users\Administrator.mycom-701091137\Desktop\metal\개천팀\Debug\winAPI_2017_03.exe
-  winAPI_2017_03.vcxproj -> C:\Users\Administrator.mycom-701091137\Desktop\metal\개천팀\Debug\winAPI_2017_03.pdb (Full PDB)
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  winMain.cpp
+  stage1Scene.cpp
+  winAPI_2017_03.vcxproj -> C:\Users\J\Desktop\metal\개천팀\Debug\winAPI_2017_03.exe
+  winAPI_2017_03.vcxproj -> C:\Users\J\Desktop\metal\개천팀\Debug\winAPI_2017_03.pdb (Partial PDB)

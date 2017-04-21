@@ -16,10 +16,10 @@ HRESULT progressBar::init(int x, int y, int width, int height)
 	_x = x;
 	_y = y;
 
-	_rcProgress = RectMake(x, y, width, height);
+	_rcProgress = RectMakeCenter(x, y, width, height);
 
-	_progressBarTop = IMAGEMANAGER->addImage("topBar", "hpBarTop.bmp", x, y, width, height, true, RGB(255, 0, 255));
-	_progressBarBottom = IMAGEMANAGER->addImage("backBar", "hpBarBottom.bmp", x, y, width, height, true, RGB(255, 0, 255));
+	_progressBarTop = IMAGEMANAGER->addImage("topBar", "bmp\\etc\\노란게이지.bmp", x, y, width, height, true, RGB(255, 0, 255));
+	_progressBarBottom = IMAGEMANAGER->addImage("backBar", "bmp\\etc\\검은게이지.bmp", x, y, width, height, true, RGB(255, 0, 255));
 
 	_width = _progressBarTop->getWidth();
 

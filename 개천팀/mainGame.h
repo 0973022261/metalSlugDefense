@@ -1,5 +1,8 @@
 #pragma once
 #include "gameNode.h"
+#include "loadingScene.h"
+#include "mainScene.h"
+#include "stage1Scene.h"
 #include "PlayerManager.h"
 #include "zombieManager.h"
 
@@ -15,7 +18,7 @@ public:
 	virtual void update(void);
 	virtual void render();
 
-
+	void addImage();
 
 
 	mainGame();

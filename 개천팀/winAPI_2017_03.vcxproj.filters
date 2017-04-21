@@ -58,6 +58,9 @@
     <Filter Include="MainGame\PlayerManager">
       <UniqueIdentifier>{7910a101-4be9-47e3-8559-38eec09b6fd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{93411c19-7e28-432d-a748-0ea13bc1b045}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -153,6 +156,30 @@
     <ClInclude Include="Character.h">
       <Filter>MainGame\PlayerManager</Filter>
     </ClInclude>
+    <ClInclude Include="zombie1.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie2.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie3.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie4.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie5.h">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1Scene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -232,6 +259,30 @@
     </ClCompile>
     <ClCompile Include="Character.cpp">
       <Filter>MainGame\PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie1.cpp">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie2.cpp">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie3.cpp">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie4.cpp">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie5.cpp">
+      <Filter>MainGame\zombieManager</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1Scene.cpp">
+      <Filter>MainGame\Scene</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

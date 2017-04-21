@@ -1,6 +1,10 @@
 #pragma once
 #include "gameNode.h"
 #include "zombie.h"
+#include "zombie1.h"
+
+
+
 
 class zombieManager : public gameNode
 {

@@ -10,8 +10,6 @@ enum playerDirection
 	ATTACK,
 	DIE,
 
-
-
 };
 
 
