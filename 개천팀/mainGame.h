@@ -18,9 +18,12 @@ public:
 	virtual void update(void);
 	virtual void render();
 
+<<<<<<< HEAD
 	void addImage();
 
 
+=======
+>>>>>>> master/master
 	mainGame();
 	~mainGame();
 };
